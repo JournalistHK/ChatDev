@@ -72,5 +72,5 @@ class ChatGPTConfig:
     max_tokens: Optional[int] = None
     presence_penalty: float = 0.0
     frequency_penalty: float = 0.0
-    logit_bias: Dict = field(default_factory=dict)
+    # logit_bias: Dict = field(default_factory=dict)
     user: str = ""

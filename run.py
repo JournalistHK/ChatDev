@@ -97,6 +97,9 @@ args2type = {'GPT_3_5_TURBO': ModelType.GPT_3_5_TURBO,
             #  'GPT_4_TURBO_V': ModelType.GPT_4_TURBO_V
             'GPT_4O': ModelType.GPT_4O,
             'GPT_4O_MINI': ModelType.GPT_4O_MINI,
+            'QWEN_CODER_PLUS': ModelType.QWEN_CODER_PLUS,
+            'QWEN_MAX': ModelType.QWEN_MAX,
+            'INFOSEC': ModelType.INFOSEC
              }
 if openai_new_api:
     args2type['GPT_3_5_TURBO'] = ModelType.GPT_3_5_TURBO_NEW

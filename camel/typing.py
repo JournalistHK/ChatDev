@@ -52,6 +52,9 @@ class ModelType(Enum):
     GPT_4_TURBO_V = "gpt-4-turbo"
     GPT_4O = "gpt-4o"
     GPT_4O_MINI = "gpt-4o-mini"
+    QWEN_CODER_PLUS = "qwen-coder-plus"
+    QWEN_MAX = "qwen-max"
+    INFOSEC = "internlm2.5-chat"
 
     STUB = "stub"
 
